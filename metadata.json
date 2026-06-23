@@ -1,0 +1,6 @@
+{
+  "name": "Rental Mobil & Hiace Sumatera Barat",
+  "description": "Website penyewaan mobil dan minibus Hiace di Sumatera Barat dengan katalog armada lengkap, estimasi biaya, penawaran wisata, dan pemesanan online langsung terintegrasi WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
