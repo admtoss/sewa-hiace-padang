@@ -128,7 +128,7 @@ export default function ToursSection({ onSelectRoute }: ToursSectionProps) {
           </div>
           <div className="md:col-span-4 flex justify-end">
             <a
-              href="https://wa.me/6281374024347?text=Halo%2520Sewa%2520Hiace%2520Padang%252C%2520saya%2520butuh%2520custom%2520itinerary%2520untuk%2520perjalanan%2520keluarga."
+              href="https://wa.me/6281374024347?text=Halo%20Sewa%20Hiace%20Padang%2C%20saya%20butuh%20custom%20itinerary%20untuk%20perjalanan%20keluarga."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full text-center md:w-auto inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-6 py-3.5 rounded-full text-xs transition-all tracking-wider uppercase shadow-lg shadow-emerald-500/20 active:scale-95 duration-200"

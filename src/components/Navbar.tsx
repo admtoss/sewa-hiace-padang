@@ -148,7 +148,7 @@ export default function Navbar({ onScrollTo, activeSection }: NavbarProps) {
           })}
           <div className="h-[1px] bg-slate-100 my-2" />
           <a
-            href="https://wa.me/6281374024347?text=Halo%2520Sewa%2520Hiace%2520Padang%252C%2520saya%2520tertarik%2520menyewa%2520minibus%2520Hiace%2520untuk%2520perjalanan%2520di%2520Sumbar."
+            href="https://wa.me/6281374024347?text=Halo%20Sewa%20Hiace%20Padang%2C%20saya%20tertarik%20menyewa%20minibus%20Hiace%20untuk%20perjalanan%20di%20Sumbar."
             target="_blank"
             rel="noopener noreferrer"
             id="mobile-navbar-wa-button"
