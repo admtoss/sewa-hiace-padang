@@ -48,7 +48,7 @@ export default function ToursSection({ onSelectRoute }: ToursSectionProps) {
           {TOURIST_ROUTES.map((route) => (
             <div
               key={route.id}
-              id={`tour-card-${route.id}`}
+              id={route.idSeo}
               className="bg-slate-800/50 border border-slate-700/50 rounded-3xl overflow-hidden shadow-xl hover:-translate-y-1 hover:border-orange-500/50 transition-all duration-350 flex flex-col justify-between"
             >
               {/* Image Banner */}

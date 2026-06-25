@@ -34,15 +34,19 @@ export const VEHICLES: Vehicle[] = [
 export const TOURIST_ROUTES: TouristRoute[] = [
   {
     id: 'route-pesona-minang',
+    // Menggunakan kata kunci Padang-Bukittinggi karena volume pencariannya sangat tinggi
+    idSeo: 'paket-wisata-padang-bukittinggi-3-hari-2-malam', 
     name: 'Paket Pesona Ranah Minang',
     duration: '3 Hari 2 Malam',
     destinations: ['Kawasan Wisata Mandeh', 'Lembah Anai', 'Bukittinggi (Jam Gadang)', 'Lembah Harau', 'Kelok 9', 'Kebun Teh', 'Danau Diatas & Dibawah', 'Danau Talang & Singkarak', 'Pagaruyung'],
     description: 'Rute paling populer mencakup keindahan laut Mandeh, sejuknya perkebunan teh dan deretan danau eksotis, hingga eksplorasi budaya di Pagaruyung serta pesona alam Bukittinggi dan Payakumbuh..',
-    priceEstimate: 4800000, // Est. price including Hiace + driver + bbm 3 days
+    priceEstimate: 4800000,
     image: 'https://i.ibb.co.com/Y7WCG7Vw/3hari2malam.webp',
   },
   {
-    id: 'route-mandeh-raja-ampat',
+    id: 'route-bukittinggi-harau',
+    // Menyertakan elemen Padang-Bukittinggi agar mencakup pencarian rute pendek yang populer
+    idSeo: 'paket-wisata-padang-bukittinggi-2-hari-1-malam',
     name: 'Paket Pesona Bukittinggi & Harau',
     duration: '2 Hari 1 Malam',
     destinations: ['Lembah Anai', 'Ngarai Sianok', 'jam Gadang', 'Lawang Park', 'Lembah Harau', 'Kelok 9', 'Pagaruyung'],
@@ -52,6 +56,8 @@ export const TOURIST_ROUTES: TouristRoute[] = [
   },
   {
     id: 'route-danau-kembar-heritage',
+    // Menggunakan istilah 'one day tour' yang sangat sering diketik turis domestik dan asing
+    idSeo: 'one-day-tour-padang-1-hari',
     name: 'Tour Esensial Jelajah Minang',
     duration: '1 Hari (Full Day)',
     destinations: ['Istano Basa Pagaruyung', 'Danau Singkarak', 'Danau Diatas & Dibawah', 'Lembah Harau', 'Kelok 9', 'Ngarai Sianok', 'Lembah Anai'],

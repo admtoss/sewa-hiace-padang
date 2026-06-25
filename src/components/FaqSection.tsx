@@ -80,7 +80,7 @@ export default function FaqSection() {
             Punya pertanyaan khusus yang belum terjawab di atas? Tim customer concern kami siap membantu kebutuhan spesifik Anda 24 jam penuh.
           </p>
           <a
-            href="https://wa.me/6281374024347?text=Halo%2520Sewa%2520Hiace%2520Padang%252C%2520saya%2520ada%2520beberapa%2520pertanyaan%2520tentang%2520mekanisme%2520sewa%2520mobil."
+            href="https://wa.me/6281374024347?text=Halo%20Sewa%20Hiace%20Padang%2C%20saya%20ada%20beberapa%20pertanyaan%20tentang%20mekanisme%20sewa%20mobil."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 mt-4 text-[10px] font-bold text-emerald-600 uppercase tracking-wider bg-emerald-50 px-5  py-2.5 rounded-full hover:bg-emerald-100 transition-all hover:scale-105 active:scale-95 duration-200"
